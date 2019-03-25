@@ -1,0 +1,57 @@
+/* =================================
+=             Settings             =
+================================= */
+
+/**
+ *
+ * Define all variables and values to use at root
+ *
+ */
+
+:root {
+
+	/* ----------
+	Breakpoints
+	---------- */
+	@custom-media --small (min-width: 30em);			/* 480px */
+	@custom-media --medium (min-width: 48em);			/* 768px */
+	@custom-media --large (min-width: 56.25em);		/* 900px */
+	@custom-media --x-large (min-width: 68.75em);	/* 1100px */
+
+
+	/* ----------
+	Colors
+	---------- */
+	--color-black: #141414;
+	--color-darker-grey: #262626;
+	--color-dark-grey: #333333;
+	--color-grey: #898989;
+	--color-light-grey: #cccccc;
+	--color-lighter-grey: #eeeeee;
+	--color-white: #ffffff;
+
+	--color-primary: hsla(173, 85%, 38%, 1);
+	--color-primary-darker: hsla(173, 85%, 25%, 1);
+
+
+	/* Elements */
+	--background-color: var(--color-white);
+	--border-color: var(--color-light-grey);
+	--text-color: var(--color-darker-grey);
+
+	/* Links */
+	--link-color: var(--color-primary);
+	--link-hover-color: var(--link-color);
+	--link-visited-color : var(--link-color);
+	--link-focus-color: var(--link-color);
+
+
+	/* ----------
+	Containers
+	---------- */
+	--container-x-small: 37.5em;	/* 480px */
+	--container-small: 50em;  		/* 800px */
+	--container-medium: 62.5em;  	/* 1000px */
+	--container-large: 75em;  		/* 1200px */
+
+}

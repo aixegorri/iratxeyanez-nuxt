@@ -1,0 +1,60 @@
+/* ============================================
+=            Zazpiak bat - Partials           =
+============================================ */
+
+/**
+ * "The seven are one"
+ * "7 folders, 1 file to merge them all"
+ */
+
+
+/* ----------
+Core
+---------- */
+@import './core/settings';
+/* @import './core/mixins'; */
+
+
+/* ----------
+Vendors
+---------- */
+/* @import './vendors/vendor-file'; */
+
+
+/* ----------
+Base
+---------- */
+/* @import './base/reset'; */
+/* @import './base/normalize'; */
+/* @import './base/fonts'; */
+
+
+/* ----------
+Layout
+---------- */
+/* @import './layout/elements'; */
+/* @import './layout/forms'; */
+/* @import './layout/tipography'; */
+/* @import './layout/utilities'; */
+/* @import './layout/textures'; */
+
+
+/* ----------
+Components
+---------- */
+/* @import './components/animations'; */
+/* @import './components/buttons'; */
+/* @import './components/tables'; */
+/* @import './components/pagination'; */
+
+
+/* ----------
+Pages
+---------- */
+/* @import './pages/site'; */
+
+
+/* ----------
+Themes
+---------- */
+/* @import './themes/admin'; */

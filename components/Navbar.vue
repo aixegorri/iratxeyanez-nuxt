@@ -1,5 +1,8 @@
 <template>
 	<div class="navbar">
+		<nuxt-link to="/" class="navbar__brand">
+			Iratxe Yañez
+		</nuxt-link>
 		<nav class="nav" :class="{active: isActive}">
 			<nuxt-link
 				v-for="navItem in navBarItems"
