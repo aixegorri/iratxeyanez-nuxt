@@ -1,13 +1,13 @@
 <template>
 	<div class="navbar">
 		<nav class="nav" :class="{active: isActive}">
-			<router-link
+			<nuxt-link
 				v-for="navItem in navBarItems"
 				:key="navItem.id"
 				:to="navItem.path"
 				class="nav__item">
 				<span v-html="navItem.name"></span>
-			</router-link>
+			</nuxt-link>
 		</nav>
 		<div class="navbar__toggle" @click="isActive = !isActive" :class="{active: isActive}">
 			<i></i>
