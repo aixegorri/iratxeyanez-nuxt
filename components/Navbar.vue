@@ -66,6 +66,7 @@ export default {
 		background-color: #ffffff;
 	}
 }
+
 .nav__item {
 	display: table;
 	margin-left: auto;

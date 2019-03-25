@@ -28,7 +28,7 @@ export default {
 }
 </script>
 
-<style language="postcss">
+<style language="scss">
 html {
 	font-family: 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
 	font-size: 16px;

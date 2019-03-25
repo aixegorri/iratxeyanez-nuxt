@@ -1,4 +1,5 @@
 import pkg from './package'
+const StyleLintPlugin = require('stylelint-webpack-plugin')
 
 export default {
 	mode: 'universal',
@@ -58,6 +59,11 @@ export default {
 					loader: 'eslint-loader',
 					exclude: /(node_modules)/
 				})
+				config.plugins.push(
+					new StyleLintPlugin({
+						files: ['**/{*.vue,*.css}']
+					})
+				)
 			}
 		},
 		postcss: {
@@ -65,12 +71,7 @@ export default {
 			// Install them before as dependencies with npm or yarn
 			plugins: {
 			// Disable a plugin by passing false as value
-				'postcss-url': false,
-				'stylelint': {
-					'rules': {
-						'color-hex-length': 'long'
-					}
-				}
+				'postcss-url': false
 			},
 			preset: {
 			// Change the postcss-preset-env settings
