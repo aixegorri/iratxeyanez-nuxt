@@ -30,7 +30,14 @@
 
 	/* Brand colors */
 	--color-primary: hsla(173, 85%, 38%, 1);
-	--color-primary-darker: hsla(173, 85%, 25%, 1);
+	--color-primary-dark: hsla(173, 85%, 25%, 1);
+
+	/* Help colors */
+	--color-alert: hsl(29, 87%, 90%);
+	--color-error: hsl(2, 66%, 57%);
+	--color-info: hsl(182, 53%, 78%);
+	--color-success: hsl(168, 75%, 42%);
+	--color-warning: hsl(49, 75%, 49%);
 
 	/* Elements */
 	--background-color: var(--color-white);
@@ -50,4 +57,92 @@
 	--container-small: 50em;  		/* 800px */
 	--container-medium: 62.5em;  	/* 1000px */
 	--container-large: 75em;  		/* 1200px */
+
+	/* ----------
+	Font
+	---------- */
+
+	/* Font definitions */
+	--font-size-base: 1rem;
+	--line-height-base: 1.6;
+	--font-family-base: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+	--font-family-alt: Georgia, Times, serif;
+
+	/* Headings */
+	--heading-font-color: var(--text-color);
+	--heading-font-weight: 600;
+	--heading-font-family: var(--font-family-alt);
+
+	/* ----------
+	Layout
+	---------- */
+
+	/* Spacing */
+	--space-xxs: calc(var(--font-size-base) / 8);	/* 2px */
+	--space-xs: calc(var(--font-size-base) / 4);		/* 4px */
+	--space-s: calc(var(--font-size-base) / 2);		/* 8px */
+	--space-m: calc(var(--font-size-base));			/* 16px */
+	--space-l: calc(var(--font-size-base) * 2);		/* 32px */
+	--space-xl: calc(var(--font-size-base) * 4);		/* 64px */
+	--space-xxl: calc(var(--font-size-base) * 8);	/* 128px */
+
+	/* Size */
+	--size-xxs: calc(var(--font-size-base) / 8);		/* 2px */
+	--size-xs: calc(var(--font-size-base) / 4);		/* 4px */
+	--size-s: calc(var(--font-size-base) / 2);		/* 8px */
+	--size-m: calc(var(--font-size-base));				/* 16px */
+	--size-l: calc(var(--font-size-base) * 2);		/* 32px */
+	--size-xl: calc(var(--font-size-base) * 4);		/* 64px */
+	--size-xxl: calc(var(--font-size-base) * 8);		/* 128px */
+
+	/* Elements */
+	--gutter-width: 1.5rem;
+	--page-max-width: 1024px;
+	--padding: var(--gutterwidth);
+	--margin: 1.5rem;
+
+	/* Border radius */
+	--border-radius-xxs: var(--space-xxs);	/* 2px */
+	--border-radius-xs: var(--space-xs);	/* 4px */
+	--border-radius-s: var(--space-s);		/* 8px */
+	--border-radius-m: var(--space-m);		/* 16px */
+	--border-radius-l: var(--space-l);		/* 32px */
+	--border-radius-xl: var(--space-xl);	/* 64px */
+	--border-radius-xxl: var(--space-xxl);	/* 128px */
+
+	/* ----------
+	Textures
+	---------- */
+
+	/* TODO: Fix color variations */
+
+	/* Alerts */
+	--alert-border-color: darken(--color-alert, 20%);
+	--alert-border-width: 1px;
+	--alert-border-style: solid;
+	--alert-text-color: darken(--color-alert, 60%);
+
+	/* Error */
+	--alert--error-color: lighten(--color-error, 30%);
+	--alert--error-border-color: lighten(--color-error, 20%);
+	--alert--error-text-color: var(--color-error);
+
+	/* Info */
+	--alert--info-color: lighten(--color-info, 10%);
+	--alert--info-border-color: darken(--color-info, 10%);
+	--alert--info-text-color: darken(--color-info, 50%);
+
+	/* Success */
+	--alert--success-color: lighten(--color-success, 30%);
+	--alert--success-border-color: lighten(--color-success, 20%);
+	--alert--success-text-color: darken(--color-success, 20%);
+
+	/* Advertencia */
+	--alert--warning-color: lighten(--color-warning, 30%);
+	--alert--warning-border-color: lighten(--color-warning, 20%);
+	--alert--warning-text-color: darken(--color-warning, 20%);
+
+	/* Badges */
+	--badge-background: transparent;
+	--badge-text-color: var(--text-color);
 }

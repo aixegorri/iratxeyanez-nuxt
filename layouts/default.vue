@@ -48,7 +48,7 @@ html {
 }
 
 a {
-	color: var(--link-color);
+	color: var(--color-primary);
 }
 
 /* FOOTER */
